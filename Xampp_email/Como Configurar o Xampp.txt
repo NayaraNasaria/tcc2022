@@ -1,0 +1,6 @@
+Colocar e substituir o arquivo php.ini na pasta Xampp/php
+
+COlocar e substituir os arquivos:
+sendmail, debug e error
+ na pasta Xampp/sendmail
+

@@ -1,0 +1,1062 @@
+22/11/02 20:56:19 ** --- MESSAGE BEGIN ---
+22/11/02 20:56:19 ** To: mailstreamlineserver@gmail.com
+22/11/02 20:56:19 ** Subject: Teste
+22/11/02 20:56:19 ** From: mailstreamlineserver@gmail.com
+22/11/02 20:56:19 ** 
+22/11/02 20:56:19 ** E-mail de teste
+22/11/02 20:56:19 ** --- MESSAGE END ---
+22/11/02 20:56:23 ** Connecting to smtp.gmail.com:587
+22/11/02 20:56:24 ** Connected.
+22/11/02 20:56:24 << 220 smtp.gmail.com ESMTP c81-20020a4a4f54000000b0049e462036ffsm192423oob.30 - gsmtp<EOL>
+22/11/02 20:56:24 >> EHLO localhost<EOL>
+22/11/02 20:56:24 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 20:56:24 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 20:56:24 >> STARTTLS<EOL>
+22/11/02 20:56:25 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 20:56:25 >> EHLO localhost<EOL>
+22/11/02 20:56:25 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 20:56:25 >> AUTH LOGIN<EOL>
+22/11/02 20:56:25 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 20:56:25 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 20:56:25 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 20:56:25 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 20:56:26 << 235 2.7.0 Accepted<EOL>
+22/11/02 20:56:26 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 20:56:26 << 250 2.1.0 OK c81-20020a4a4f54000000b0049e462036ffsm192423oob.30 - gsmtp<EOL>
+22/11/02 20:56:26 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 20:56:26 << 250 2.1.5 OK c81-20020a4a4f54000000b0049e462036ffsm192423oob.30 - gsmtp<EOL>
+22/11/02 20:56:26 >> DATA<EOL>
+22/11/02 20:56:27 << 354  Go ahead c81-20020a4a4f54000000b0049e462036ffsm192423oob.30 - gsmtp<EOL>
+22/11/02 20:56:27 >> Date: Wed, 2 Nov 2022 20:56:27 -0300<EOL>
+22/11/02 20:56:27 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 20:56:27 >> Subject: Teste<EOL>
+22/11/02 20:56:27 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 20:56:27 >> <EOL>
+22/11/02 20:56:27 >> E-mail de teste<EOL>
+22/11/02 20:56:27 >> .<EOL>
+22/11/02 20:56:27 << 250 2.0.0 OK  1667433387 c81-20020a4a4f54000000b0049e462036ffsm192423oob.30 - gsmtp<EOL>
+22/11/02 20:56:27 >> QUIT<EOL>
+22/11/02 20:56:28 << 221 2.0.0 closing connection c81-20020a4a4f54000000b0049e462036ffsm192423oob.30 - gsmtp<EOL>
+22/11/02 20:56:28 ** Disconnected.
+22/11/02 20:56:28 ** Disconnected.
+22/11/02 20:56:28 ** Disconnected.
+22/11/02 20:58:12 ** --- MESSAGE BEGIN ---
+22/11/02 20:58:12 ** To: mailstreamlineserver@gmail.com
+22/11/02 20:58:12 ** Subject: Teste
+22/11/02 20:58:12 ** From: mailstreamlineserver@gmail.com
+22/11/02 20:58:12 ** 
+22/11/02 20:58:12 ** E-mail de teste
+22/11/02 20:58:12 ** --- MESSAGE END ---
+22/11/02 20:58:13 ** Connecting to smtp.gmail.com:587
+22/11/02 20:58:14 ** Connected.
+22/11/02 20:58:14 << 220 smtp.gmail.com ESMTP r5-20020a9d5cc5000000b0066c2ab15b13sm5629775oti.42 - gsmtp<EOL>
+22/11/02 20:58:14 >> EHLO localhost<EOL>
+22/11/02 20:58:14 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 20:58:14 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 20:58:14 >> STARTTLS<EOL>
+22/11/02 20:58:14 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 20:58:14 >> EHLO localhost<EOL>
+22/11/02 20:58:15 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 20:58:15 >> AUTH LOGIN<EOL>
+22/11/02 20:58:15 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 20:58:15 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 20:58:15 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 20:58:15 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 20:58:15 << 235 2.7.0 Accepted<EOL>
+22/11/02 20:58:15 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 20:58:16 << 250 2.1.0 OK r5-20020a9d5cc5000000b0066c2ab15b13sm5629775oti.42 - gsmtp<EOL>
+22/11/02 20:58:16 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 20:58:16 << 250 2.1.5 OK r5-20020a9d5cc5000000b0066c2ab15b13sm5629775oti.42 - gsmtp<EOL>
+22/11/02 20:58:16 >> DATA<EOL>
+22/11/02 20:58:16 << 354  Go ahead r5-20020a9d5cc5000000b0066c2ab15b13sm5629775oti.42 - gsmtp<EOL>
+22/11/02 20:58:16 >> Date: Wed, 2 Nov 2022 20:58:16 -0300<EOL>
+22/11/02 20:58:16 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 20:58:16 >> Subject: Teste<EOL>
+22/11/02 20:58:16 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 20:58:16 >> <EOL>
+22/11/02 20:58:16 >> E-mail de teste<EOL>
+22/11/02 20:58:16 >> .<EOL>
+22/11/02 20:58:17 << 250 2.0.0 OK  1667433497 r5-20020a9d5cc5000000b0066c2ab15b13sm5629775oti.42 - gsmtp<EOL>
+22/11/02 20:58:17 >> QUIT<EOL>
+22/11/02 20:58:17 << 221 2.0.0 closing connection r5-20020a9d5cc5000000b0066c2ab15b13sm5629775oti.42 - gsmtp<EOL>
+22/11/02 20:58:17 ** Disconnecting from smtp.gmail.com:587
+22/11/02 20:58:17 ** Disconnected.
+22/11/02 20:58:17 ** Disconnected.
+22/11/02 21:02:15 ** --- MESSAGE BEGIN ---
+22/11/02 21:02:15 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:02:15 ** Subject: Redefinição de Senha
+22/11/02 21:02:15 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:02:15 ** 
+22/11/02 21:02:15 ** Sua nova senha:49e88f
+22/11/02 21:02:15 ** --- MESSAGE END ---
+22/11/02 21:02:16 ** Connecting to smtp.gmail.com:587
+22/11/02 21:02:16 ** Connected.
+22/11/02 21:02:16 << 220 smtp.gmail.com ESMTP h14-20020a4adcce000000b00499527def25sm4933890oou.47 - gsmtp<EOL>
+22/11/02 21:02:16 >> EHLO localhost<EOL>
+22/11/02 21:02:17 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:02:17 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:02:17 >> STARTTLS<EOL>
+22/11/02 21:02:17 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:02:17 >> EHLO localhost<EOL>
+22/11/02 21:02:17 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:02:17 >> AUTH LOGIN<EOL>
+22/11/02 21:02:17 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:02:17 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:02:18 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:02:18 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:02:18 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:02:18 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:02:18 << 250 2.1.0 OK h14-20020a4adcce000000b00499527def25sm4933890oou.47 - gsmtp<EOL>
+22/11/02 21:02:18 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:02:18 << 250 2.1.5 OK h14-20020a4adcce000000b00499527def25sm4933890oou.47 - gsmtp<EOL>
+22/11/02 21:02:18 >> DATA<EOL>
+22/11/02 21:02:19 << 354  Go ahead h14-20020a4adcce000000b00499527def25sm4933890oou.47 - gsmtp<EOL>
+22/11/02 21:02:19 >> Date: Wed, 2 Nov 2022 21:02:19 -0300<EOL>
+22/11/02 21:02:19 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:02:19 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:02:19 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:02:19 >> <EOL>
+22/11/02 21:02:19 >> Sua nova senha:49e88f<EOL>
+22/11/02 21:02:19 >> .<EOL>
+22/11/02 21:02:20 << 250 2.0.0 OK  1667433740 h14-20020a4adcce000000b00499527def25sm4933890oou.47 - gsmtp<EOL>
+22/11/02 21:02:20 >> QUIT<EOL>
+22/11/02 21:02:20 << 221 2.0.0 closing connection h14-20020a4adcce000000b00499527def25sm4933890oou.47 - gsmtp<EOL>
+22/11/02 21:02:20 ** Disconnecting from smtp.gmail.com:587
+22/11/02 21:02:20 ** Disconnected.
+22/11/02 21:02:20 ** Disconnected.
+22/11/02 21:24:15 ** --- MESSAGE BEGIN ---
+22/11/02 21:24:15 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:24:15 ** Subject: Redefinição de Senha
+22/11/02 21:24:15 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:24:15 ** 
+22/11/02 21:24:15 ** Sua nova senha:0b823f
+22/11/02 21:24:15 ** --- MESSAGE END ---
+22/11/02 21:24:17 ** Connecting to smtp.gmail.com:587
+22/11/02 21:24:17 ** Connected.
+22/11/02 21:24:17 << 220 smtp.gmail.com ESMTP x1-20020a4ad041000000b004956ee06cadsm4975712oor.43 - gsmtp<EOL>
+22/11/02 21:24:17 >> EHLO localhost<EOL>
+22/11/02 21:24:17 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:24:17 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:24:17 >> STARTTLS<EOL>
+22/11/02 21:24:17 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:24:18 >> EHLO localhost<EOL>
+22/11/02 21:24:18 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:24:18 >> AUTH LOGIN<EOL>
+22/11/02 21:24:18 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:24:18 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:24:18 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:24:18 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:24:18 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:24:18 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:24:19 << 250 2.1.0 OK x1-20020a4ad041000000b004956ee06cadsm4975712oor.43 - gsmtp<EOL>
+22/11/02 21:24:19 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:24:19 << 250 2.1.5 OK x1-20020a4ad041000000b004956ee06cadsm4975712oor.43 - gsmtp<EOL>
+22/11/02 21:24:19 >> DATA<EOL>
+22/11/02 21:24:19 << 354  Go ahead x1-20020a4ad041000000b004956ee06cadsm4975712oor.43 - gsmtp<EOL>
+22/11/02 21:24:19 >> Date: Wed, 2 Nov 2022 21:24:19 -0300<EOL>
+22/11/02 21:24:19 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:24:19 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:24:19 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:24:19 >> <EOL>
+22/11/02 21:24:19 >> Sua nova senha:0b823f<EOL>
+22/11/02 21:24:19 >> .<EOL>
+22/11/02 21:24:20 << 250 2.0.0 OK  1667435060 x1-20020a4ad041000000b004956ee06cadsm4975712oor.43 - gsmtp<EOL>
+22/11/02 21:24:20 >> QUIT<EOL>
+22/11/02 21:24:20 << 221 2.0.0 closing connection x1-20020a4ad041000000b004956ee06cadsm4975712oor.43 - gsmtp<EOL>
+22/11/02 21:24:20 ** Disconnected.
+22/11/02 21:24:20 ** Disconnected.
+22/11/02 21:24:20 ** Disconnected.
+22/11/02 21:28:45 ** --- MESSAGE BEGIN ---
+22/11/02 21:28:45 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:28:45 ** Subject: Redefinição de Senha
+22/11/02 21:28:45 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:28:45 ** 
+22/11/02 21:28:45 ** Sua nova senha:d40f9f
+22/11/02 21:28:45 ** --- MESSAGE END ---
+22/11/02 21:28:46 ** Connecting to smtp.gmail.com:587
+22/11/02 21:28:47 ** Connected.
+22/11/02 21:28:47 << 220 smtp.gmail.com ESMTP u8-20020a9d4d88000000b006618586b850sm5694147otk.46 - gsmtp<EOL>
+22/11/02 21:28:47 >> EHLO localhost<EOL>
+22/11/02 21:28:47 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:28:47 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:28:47 >> STARTTLS<EOL>
+22/11/02 21:28:47 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:28:47 >> EHLO localhost<EOL>
+22/11/02 21:28:47 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:28:47 >> AUTH LOGIN<EOL>
+22/11/02 21:28:47 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:28:47 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:28:48 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:28:48 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:28:48 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:28:48 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:28:48 << 250 2.1.0 OK u8-20020a9d4d88000000b006618586b850sm5694147otk.46 - gsmtp<EOL>
+22/11/02 21:28:48 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:28:48 << 250 2.1.5 OK u8-20020a9d4d88000000b006618586b850sm5694147otk.46 - gsmtp<EOL>
+22/11/02 21:28:48 >> DATA<EOL>
+22/11/02 21:28:49 << 354  Go ahead u8-20020a9d4d88000000b006618586b850sm5694147otk.46 - gsmtp<EOL>
+22/11/02 21:28:49 >> Date: Wed, 2 Nov 2022 21:28:49 -0300<EOL>
+22/11/02 21:28:49 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:28:49 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:28:49 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:28:49 >> <EOL>
+22/11/02 21:28:49 >> Sua nova senha:d40f9f<EOL>
+22/11/02 21:28:49 >> .<EOL>
+22/11/02 21:28:50 << 250 2.0.0 OK  1667435330 u8-20020a9d4d88000000b006618586b850sm5694147otk.46 - gsmtp<EOL>
+22/11/02 21:28:50 >> QUIT<EOL>
+22/11/02 21:28:50 << 221 2.0.0 closing connection u8-20020a9d4d88000000b006618586b850sm5694147otk.46 - gsmtp<EOL>
+22/11/02 21:28:50 ** Disconnected.
+22/11/02 21:28:50 ** Disconnected.
+22/11/02 21:28:50 ** Disconnected.
+22/11/02 21:30:45 ** --- MESSAGE BEGIN ---
+22/11/02 21:30:45 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:30:45 ** Subject: Redefinição de Senha
+22/11/02 21:30:45 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:30:45 ** 
+22/11/02 21:30:45 ** Sua nova senha:6a7ced
+22/11/02 21:30:45 ** --- MESSAGE END ---
+22/11/02 21:30:46 ** Connecting to smtp.gmail.com:587
+22/11/02 21:30:47 ** Connected.
+22/11/02 21:30:47 << 220 smtp.gmail.com ESMTP k20-20020a056830169400b00667ff6b7e9esm5631409otr.40 - gsmtp<EOL>
+22/11/02 21:30:47 >> EHLO localhost<EOL>
+22/11/02 21:30:47 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:30:47 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:30:47 >> STARTTLS<EOL>
+22/11/02 21:30:47 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:30:47 >> EHLO localhost<EOL>
+22/11/02 21:30:47 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:30:47 >> AUTH LOGIN<EOL>
+22/11/02 21:30:48 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:30:48 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:30:48 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:30:48 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:30:48 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:30:48 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:30:48 << 250 2.1.0 OK k20-20020a056830169400b00667ff6b7e9esm5631409otr.40 - gsmtp<EOL>
+22/11/02 21:30:48 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:30:48 << 250 2.1.5 OK k20-20020a056830169400b00667ff6b7e9esm5631409otr.40 - gsmtp<EOL>
+22/11/02 21:30:48 >> DATA<EOL>
+22/11/02 21:30:49 << 354  Go ahead k20-20020a056830169400b00667ff6b7e9esm5631409otr.40 - gsmtp<EOL>
+22/11/02 21:30:49 >> Date: Wed, 2 Nov 2022 21:30:49 -0300<EOL>
+22/11/02 21:30:49 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:30:49 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:30:49 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:30:49 >> <EOL>
+22/11/02 21:30:49 >> Sua nova senha:6a7ced<EOL>
+22/11/02 21:30:49 >> .<EOL>
+22/11/02 21:30:50 << 250 2.0.0 OK  1667435450 k20-20020a056830169400b00667ff6b7e9esm5631409otr.40 - gsmtp<EOL>
+22/11/02 21:30:50 >> QUIT<EOL>
+22/11/02 21:30:50 << 221 2.0.0 closing connection k20-20020a056830169400b00667ff6b7e9esm5631409otr.40 - gsmtp<EOL>
+22/11/02 21:30:50 ** Disconnected.
+22/11/02 21:30:50 ** Disconnected.
+22/11/02 21:30:50 ** Disconnected.
+22/11/02 21:34:49 ** --- MESSAGE BEGIN ---
+22/11/02 21:34:49 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:34:49 ** Subject: Redefinição de Senha
+22/11/02 21:34:49 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:34:49 ** 
+22/11/02 21:34:49 ** Sua nova senha:a034c0
+22/11/02 21:34:49 ** --- MESSAGE END ---
+22/11/02 21:34:50 ** Connecting to smtp.gmail.com:587
+22/11/02 21:34:50 ** Connected.
+22/11/02 21:34:50 << 220 smtp.gmail.com ESMTP a38-20020a056870d62600b0011bde9f5745sm6767581oaq.23 - gsmtp<EOL>
+22/11/02 21:34:50 >> EHLO localhost<EOL>
+22/11/02 21:34:50 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:34:50 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:34:50 >> STARTTLS<EOL>
+22/11/02 21:34:50 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:34:51 >> EHLO localhost<EOL>
+22/11/02 21:34:51 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:34:51 >> AUTH LOGIN<EOL>
+22/11/02 21:34:51 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:34:51 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:34:51 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:34:51 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:34:52 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:34:52 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:34:52 << 250 2.1.0 OK a38-20020a056870d62600b0011bde9f5745sm6767581oaq.23 - gsmtp<EOL>
+22/11/02 21:34:52 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:34:52 << 250 2.1.5 OK a38-20020a056870d62600b0011bde9f5745sm6767581oaq.23 - gsmtp<EOL>
+22/11/02 21:34:52 >> DATA<EOL>
+22/11/02 21:34:52 << 354  Go ahead a38-20020a056870d62600b0011bde9f5745sm6767581oaq.23 - gsmtp<EOL>
+22/11/02 21:34:52 >> Date: Wed, 2 Nov 2022 21:34:52 -0300<EOL>
+22/11/02 21:34:52 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:34:52 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:34:52 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:34:52 >> <EOL>
+22/11/02 21:34:52 >> Sua nova senha:a034c0<EOL>
+22/11/02 21:34:52 >> .<EOL>
+22/11/02 21:34:53 << 250 2.0.0 OK  1667435693 a38-20020a056870d62600b0011bde9f5745sm6767581oaq.23 - gsmtp<EOL>
+22/11/02 21:34:53 >> QUIT<EOL>
+22/11/02 21:34:53 << 221 2.0.0 closing connection a38-20020a056870d62600b0011bde9f5745sm6767581oaq.23 - gsmtp<EOL>
+22/11/02 21:34:53 ** Disconnected.
+22/11/02 21:34:53 ** Disconnected.
+22/11/02 21:34:53 ** Disconnected.
+22/11/02 21:34:55 ** --- MESSAGE BEGIN ---
+22/11/02 21:34:55 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:34:56 ** Subject: Redefinição de Senha
+22/11/02 21:34:56 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:34:56 ** 
+22/11/02 21:34:56 ** Sua nova senha:394ab2
+22/11/02 21:34:56 ** --- MESSAGE END ---
+22/11/02 21:34:57 ** Connecting to smtp.gmail.com:587
+22/11/02 21:34:57 ** Connected.
+22/11/02 21:34:57 << 220 smtp.gmail.com ESMTP d25-20020a0568301b7900b0066a9ba5094fsm5517145ote.1 - gsmtp<EOL>
+22/11/02 21:34:57 >> EHLO localhost<EOL>
+22/11/02 21:34:57 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:34:57 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:34:57 >> STARTTLS<EOL>
+22/11/02 21:34:57 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:34:58 >> EHLO localhost<EOL>
+22/11/02 21:34:58 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:34:58 >> AUTH LOGIN<EOL>
+22/11/02 21:34:58 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:34:58 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:34:58 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:34:58 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:34:58 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:34:58 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:34:59 << 250 2.1.0 OK d25-20020a0568301b7900b0066a9ba5094fsm5517145ote.1 - gsmtp<EOL>
+22/11/02 21:34:59 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:34:59 << 250 2.1.5 OK d25-20020a0568301b7900b0066a9ba5094fsm5517145ote.1 - gsmtp<EOL>
+22/11/02 21:34:59 >> DATA<EOL>
+22/11/02 21:34:59 << 354  Go ahead d25-20020a0568301b7900b0066a9ba5094fsm5517145ote.1 - gsmtp<EOL>
+22/11/02 21:34:59 >> Date: Wed, 2 Nov 2022 21:34:59 -0300<EOL>
+22/11/02 21:34:59 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:34:59 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:34:59 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:34:59 >> <EOL>
+22/11/02 21:34:59 >> Sua nova senha:394ab2<EOL>
+22/11/02 21:34:59 >> .<EOL>
+22/11/02 21:35:00 << 250 2.0.0 OK  1667435700 d25-20020a0568301b7900b0066a9ba5094fsm5517145ote.1 - gsmtp<EOL>
+22/11/02 21:35:00 >> QUIT<EOL>
+22/11/02 21:35:00 << 221 2.0.0 closing connection d25-20020a0568301b7900b0066a9ba5094fsm5517145ote.1 - gsmtp<EOL>
+22/11/02 21:35:00 ** Disconnected.
+22/11/02 21:35:00 ** Disconnected.
+22/11/02 21:35:00 ** Disconnected.
+22/11/02 21:36:12 ** --- MESSAGE BEGIN ---
+22/11/02 21:36:12 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:36:12 ** Subject: Redefinição de Senha
+22/11/02 21:36:12 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:36:12 ** 
+22/11/02 21:36:12 ** Sua nova senha:aff1b8
+22/11/02 21:36:12 ** --- MESSAGE END ---
+22/11/02 21:36:13 ** Connecting to smtp.gmail.com:587
+22/11/02 21:36:13 ** Connected.
+22/11/02 21:36:13 << 220 smtp.gmail.com ESMTP 37-20020a9d0328000000b00661af2f9a1asm5677598otv.49 - gsmtp<EOL>
+22/11/02 21:36:13 >> EHLO localhost<EOL>
+22/11/02 21:36:13 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:36:13 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:36:13 >> STARTTLS<EOL>
+22/11/02 21:36:14 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:36:14 >> EHLO localhost<EOL>
+22/11/02 21:36:14 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:36:14 >> AUTH LOGIN<EOL>
+22/11/02 21:36:14 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:36:14 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:36:14 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:36:14 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:36:15 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:36:15 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:36:15 << 250 2.1.0 OK 37-20020a9d0328000000b00661af2f9a1asm5677598otv.49 - gsmtp<EOL>
+22/11/02 21:36:15 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:36:15 << 250 2.1.5 OK 37-20020a9d0328000000b00661af2f9a1asm5677598otv.49 - gsmtp<EOL>
+22/11/02 21:36:15 >> DATA<EOL>
+22/11/02 21:36:15 << 354  Go ahead 37-20020a9d0328000000b00661af2f9a1asm5677598otv.49 - gsmtp<EOL>
+22/11/02 21:36:15 >> Date: Wed, 2 Nov 2022 21:36:15 -0300<EOL>
+22/11/02 21:36:15 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:36:15 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:36:15 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:36:15 >> <EOL>
+22/11/02 21:36:15 >> Sua nova senha:aff1b8<EOL>
+22/11/02 21:36:15 >> .<EOL>
+22/11/02 21:36:16 << 250 2.0.0 OK  1667435776 37-20020a9d0328000000b00661af2f9a1asm5677598otv.49 - gsmtp<EOL>
+22/11/02 21:36:16 >> QUIT<EOL>
+22/11/02 21:36:16 << 221 2.0.0 closing connection 37-20020a9d0328000000b00661af2f9a1asm5677598otv.49 - gsmtp<EOL>
+22/11/02 21:36:16 ** Disconnecting from smtp.gmail.com:587
+22/11/02 21:36:16 ** Disconnected.
+22/11/02 21:36:16 ** Disconnected.
+22/11/02 21:37:35 ** --- MESSAGE BEGIN ---
+22/11/02 21:37:35 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:37:35 ** Subject: Redefinição de Senha
+22/11/02 21:37:35 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:37:35 ** 
+22/11/02 21:37:35 ** Sua nova senha:3ac09c
+22/11/02 21:37:35 ** --- MESSAGE END ---
+22/11/02 21:37:36 ** Connecting to smtp.gmail.com:587
+22/11/02 21:37:37 ** Connected.
+22/11/02 21:37:37 << 220 smtp.gmail.com ESMTP i4-20020a056808030400b00359af7ea8fdsm5135867oie.34 - gsmtp<EOL>
+22/11/02 21:37:37 >> EHLO localhost<EOL>
+22/11/02 21:37:37 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:37:37 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:37:37 >> STARTTLS<EOL>
+22/11/02 21:37:37 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:37:37 >> EHLO localhost<EOL>
+22/11/02 21:37:37 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:37:37 >> AUTH LOGIN<EOL>
+22/11/02 21:37:37 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:37:37 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:37:38 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:37:38 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:37:38 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:37:38 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:37:38 << 250 2.1.0 OK i4-20020a056808030400b00359af7ea8fdsm5135867oie.34 - gsmtp<EOL>
+22/11/02 21:37:38 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:37:38 << 250 2.1.5 OK i4-20020a056808030400b00359af7ea8fdsm5135867oie.34 - gsmtp<EOL>
+22/11/02 21:37:38 >> DATA<EOL>
+22/11/02 21:37:39 << 354  Go ahead i4-20020a056808030400b00359af7ea8fdsm5135867oie.34 - gsmtp<EOL>
+22/11/02 21:37:39 >> Date: Wed, 2 Nov 2022 21:37:39 -0300<EOL>
+22/11/02 21:37:39 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:37:39 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:37:39 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:37:39 >> <EOL>
+22/11/02 21:37:39 >> Sua nova senha:3ac09c<EOL>
+22/11/02 21:37:39 >> .<EOL>
+22/11/02 21:37:40 << 250 2.0.0 OK  1667435860 i4-20020a056808030400b00359af7ea8fdsm5135867oie.34 - gsmtp<EOL>
+22/11/02 21:37:40 >> QUIT<EOL>
+22/11/02 21:37:40 << 221 2.0.0 closing connection i4-20020a056808030400b00359af7ea8fdsm5135867oie.34 - gsmtp<EOL>
+22/11/02 21:37:40 ** Disconnected.
+22/11/02 21:37:40 ** Disconnected.
+22/11/02 21:37:40 ** Disconnected.
+22/11/02 21:38:38 ** --- MESSAGE BEGIN ---
+22/11/02 21:38:38 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:38:38 ** Subject: Redefinição de Senha
+22/11/02 21:38:38 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:38:38 ** 
+22/11/02 21:38:38 ** Sua nova senha:3f175f
+22/11/02 21:38:38 ** --- MESSAGE END ---
+22/11/02 21:38:39 ** Connecting to smtp.gmail.com:587
+22/11/02 21:38:40 ** Connected.
+22/11/02 21:38:40 << 220 smtp.gmail.com ESMTP bl8-20020a056808308800b0035028730c90sm5088554oib.1 - gsmtp<EOL>
+22/11/02 21:38:40 >> EHLO localhost<EOL>
+22/11/02 21:38:40 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:38:40 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:38:40 >> STARTTLS<EOL>
+22/11/02 21:38:40 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:38:40 >> EHLO localhost<EOL>
+22/11/02 21:38:40 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:38:40 >> AUTH LOGIN<EOL>
+22/11/02 21:38:41 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:38:41 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:38:41 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:38:41 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:38:41 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:38:41 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:38:41 << 250 2.1.0 OK bl8-20020a056808308800b0035028730c90sm5088554oib.1 - gsmtp<EOL>
+22/11/02 21:38:41 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:38:41 << 250 2.1.5 OK bl8-20020a056808308800b0035028730c90sm5088554oib.1 - gsmtp<EOL>
+22/11/02 21:38:41 >> DATA<EOL>
+22/11/02 21:38:42 << 354  Go ahead bl8-20020a056808308800b0035028730c90sm5088554oib.1 - gsmtp<EOL>
+22/11/02 21:38:42 >> Date: Wed, 2 Nov 2022 21:38:42 -0300<EOL>
+22/11/02 21:38:42 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:38:42 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:38:42 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:38:42 >> <EOL>
+22/11/02 21:38:42 >> Sua nova senha:3f175f<EOL>
+22/11/02 21:38:42 >> .<EOL>
+22/11/02 21:38:43 << 250 2.0.0 OK  1667435923 bl8-20020a056808308800b0035028730c90sm5088554oib.1 - gsmtp<EOL>
+22/11/02 21:38:43 >> QUIT<EOL>
+22/11/02 21:38:43 << 221 2.0.0 closing connection bl8-20020a056808308800b0035028730c90sm5088554oib.1 - gsmtp<EOL>
+22/11/02 21:38:43 ** Disconnecting from smtp.gmail.com:587
+22/11/02 21:38:43 ** Disconnected.
+22/11/02 21:38:43 ** Disconnected.
+22/11/02 21:41:59 ** --- MESSAGE BEGIN ---
+22/11/02 21:41:59 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:41:59 ** Subject: Redefinição de Senha
+22/11/02 21:41:59 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:41:59 ** 
+22/11/02 21:41:59 ** Sua nova senha:e5b4d4
+22/11/02 21:41:59 ** --- MESSAGE END ---
+22/11/02 21:42:00 ** Connecting to smtp.gmail.com:587
+22/11/02 21:42:01 ** Connected.
+22/11/02 21:42:01 << 220 smtp.gmail.com ESMTP z13-20020a056870460d00b0013c50b812a2sm6739216oao.36 - gsmtp<EOL>
+22/11/02 21:42:01 >> EHLO localhost<EOL>
+22/11/02 21:42:01 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:42:01 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:42:01 >> STARTTLS<EOL>
+22/11/02 21:42:01 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:42:02 >> EHLO localhost<EOL>
+22/11/02 21:42:02 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:42:02 >> AUTH LOGIN<EOL>
+22/11/02 21:42:02 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:42:02 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:42:02 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:42:02 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:42:02 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:42:02 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:42:03 << 250 2.1.0 OK z13-20020a056870460d00b0013c50b812a2sm6739216oao.36 - gsmtp<EOL>
+22/11/02 21:42:03 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:42:03 << 250 2.1.5 OK z13-20020a056870460d00b0013c50b812a2sm6739216oao.36 - gsmtp<EOL>
+22/11/02 21:42:03 >> DATA<EOL>
+22/11/02 21:42:03 << 354  Go ahead z13-20020a056870460d00b0013c50b812a2sm6739216oao.36 - gsmtp<EOL>
+22/11/02 21:42:03 >> Date: Wed, 2 Nov 2022 21:42:03 -0300<EOL>
+22/11/02 21:42:03 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:42:03 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:42:03 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:42:03 >> <EOL>
+22/11/02 21:42:03 >> Sua nova senha:e5b4d4<EOL>
+22/11/02 21:42:03 >> .<EOL>
+22/11/02 21:42:05 << 250 2.0.0 OK  1667436125 z13-20020a056870460d00b0013c50b812a2sm6739216oao.36 - gsmtp<EOL>
+22/11/02 21:42:05 >> QUIT<EOL>
+22/11/02 21:42:05 << 221 2.0.0 closing connection z13-20020a056870460d00b0013c50b812a2sm6739216oao.36 - gsmtp<EOL>
+22/11/02 21:42:05 ** Disconnecting from smtp.gmail.com:587
+22/11/02 21:42:05 ** Disconnected.
+22/11/02 21:42:05 ** Disconnected.
+22/11/02 21:47:08 ** --- MESSAGE BEGIN ---
+22/11/02 21:47:08 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:47:08 ** Subject: Redefinição de Senha
+22/11/02 21:47:08 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:47:08 ** 
+22/11/02 21:47:08 ** Sua nova senha:5c8558
+22/11/02 21:47:08 ** --- MESSAGE END ---
+22/11/02 21:47:09 ** Connecting to smtp.gmail.com:587
+22/11/02 21:47:09 ** Connected.
+22/11/02 21:47:09 << 220 smtp.gmail.com ESMTP x32-20020a05683040a000b0066aba96addbsm5568553ott.81 - gsmtp<EOL>
+22/11/02 21:47:09 >> EHLO localhost<EOL>
+22/11/02 21:47:09 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:47:09 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:47:09 >> STARTTLS<EOL>
+22/11/02 21:47:10 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:47:10 >> EHLO localhost<EOL>
+22/11/02 21:47:10 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:47:10 >> AUTH LOGIN<EOL>
+22/11/02 21:47:10 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:47:10 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:47:10 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:47:10 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:47:11 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:47:11 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:47:11 << 250 2.1.0 OK x32-20020a05683040a000b0066aba96addbsm5568553ott.81 - gsmtp<EOL>
+22/11/02 21:47:11 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:47:11 << 250 2.1.5 OK x32-20020a05683040a000b0066aba96addbsm5568553ott.81 - gsmtp<EOL>
+22/11/02 21:47:11 >> DATA<EOL>
+22/11/02 21:47:11 << 354  Go ahead x32-20020a05683040a000b0066aba96addbsm5568553ott.81 - gsmtp<EOL>
+22/11/02 21:47:11 >> Date: Wed, 2 Nov 2022 21:47:11 -0300<EOL>
+22/11/02 21:47:11 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:47:11 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:47:11 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:47:11 >> <EOL>
+22/11/02 21:47:11 >> Sua nova senha:5c8558<EOL>
+22/11/02 21:47:11 >> .<EOL>
+22/11/02 21:47:13 << 250 2.0.0 OK  1667436433 x32-20020a05683040a000b0066aba96addbsm5568553ott.81 - gsmtp<EOL>
+22/11/02 21:47:13 >> QUIT<EOL>
+22/11/02 21:47:13 << 221 2.0.0 closing connection x32-20020a05683040a000b0066aba96addbsm5568553ott.81 - gsmtp<EOL>
+22/11/02 21:47:13 ** Disconnecting from smtp.gmail.com:587
+22/11/02 21:47:13 ** Disconnected.
+22/11/02 21:47:13 ** Disconnected.
+22/11/02 21:47:18 ** --- MESSAGE BEGIN ---
+22/11/02 21:47:18 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:47:18 ** Subject: Redefinição de Senha
+22/11/02 21:47:18 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:47:18 ** 
+22/11/02 21:47:18 ** Sua nova senha:365e2c
+22/11/02 21:47:18 ** --- MESSAGE END ---
+22/11/02 21:47:19 ** Connecting to smtp.gmail.com:587
+22/11/02 21:47:19 ** Connected.
+22/11/02 21:47:19 << 220 smtp.gmail.com ESMTP n12-20020a9d6f0c000000b006619483182csm5555223otq.18 - gsmtp<EOL>
+22/11/02 21:47:19 >> EHLO localhost<EOL>
+22/11/02 21:47:19 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:47:19 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:47:19 >> STARTTLS<EOL>
+22/11/02 21:47:20 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:47:20 >> EHLO localhost<EOL>
+22/11/02 21:47:20 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:47:20 >> AUTH LOGIN<EOL>
+22/11/02 21:47:20 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:47:20 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:47:20 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:47:20 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:47:21 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:47:21 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:47:21 << 250 2.1.0 OK n12-20020a9d6f0c000000b006619483182csm5555223otq.18 - gsmtp<EOL>
+22/11/02 21:47:21 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:47:21 << 250 2.1.5 OK n12-20020a9d6f0c000000b006619483182csm5555223otq.18 - gsmtp<EOL>
+22/11/02 21:47:21 >> DATA<EOL>
+22/11/02 21:47:21 << 354  Go ahead n12-20020a9d6f0c000000b006619483182csm5555223otq.18 - gsmtp<EOL>
+22/11/02 21:47:21 >> Date: Wed, 2 Nov 2022 21:47:21 -0300<EOL>
+22/11/02 21:47:21 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:47:21 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:47:21 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:47:21 >> <EOL>
+22/11/02 21:47:21 >> Sua nova senha:365e2c<EOL>
+22/11/02 21:47:21 >> .<EOL>
+22/11/02 21:47:23 << 250 2.0.0 OK  1667436443 n12-20020a9d6f0c000000b006619483182csm5555223otq.18 - gsmtp<EOL>
+22/11/02 21:47:23 >> QUIT<EOL>
+22/11/02 21:47:23 << 221 2.0.0 closing connection n12-20020a9d6f0c000000b006619483182csm5555223otq.18 - gsmtp<EOL>
+22/11/02 21:47:23 ** Disconnected.
+22/11/02 21:47:23 ** Disconnected.
+22/11/02 21:47:23 ** Disconnected.
+22/11/02 21:50:56 ** --- MESSAGE BEGIN ---
+22/11/02 21:50:56 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:50:56 ** Subject: Redefinição de Senha
+22/11/02 21:50:56 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:50:56 ** 
+22/11/02 21:50:56 ** Sua nova senha: 4a0b2d
+22/11/02 21:50:56 ** --- MESSAGE END ---
+22/11/02 21:50:57 ** Connecting to smtp.gmail.com:587
+22/11/02 21:50:57 ** Connected.
+22/11/02 21:50:57 << 220 smtp.gmail.com ESMTP h18-20020a9d7992000000b00637032a39a3sm5538252otm.6 - gsmtp<EOL>
+22/11/02 21:50:57 >> EHLO localhost<EOL>
+22/11/02 21:50:58 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:50:58 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:50:58 >> STARTTLS<EOL>
+22/11/02 21:50:58 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:50:58 >> EHLO localhost<EOL>
+22/11/02 21:50:58 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:50:58 >> AUTH LOGIN<EOL>
+22/11/02 21:50:58 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:50:58 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:50:58 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:50:58 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:50:59 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:50:59 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:50:59 << 250 2.1.0 OK h18-20020a9d7992000000b00637032a39a3sm5538252otm.6 - gsmtp<EOL>
+22/11/02 21:50:59 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:50:59 << 250 2.1.5 OK h18-20020a9d7992000000b00637032a39a3sm5538252otm.6 - gsmtp<EOL>
+22/11/02 21:50:59 >> DATA<EOL>
+22/11/02 21:51:00 << 354  Go ahead h18-20020a9d7992000000b00637032a39a3sm5538252otm.6 - gsmtp<EOL>
+22/11/02 21:51:00 >> Date: Wed, 2 Nov 2022 21:51:00 -0300<EOL>
+22/11/02 21:51:00 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:51:00 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:51:00 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:51:00 >> <EOL>
+22/11/02 21:51:00 >> Sua nova senha: 4a0b2d<EOL>
+22/11/02 21:51:00 >> .<EOL>
+22/11/02 21:51:00 << 250 2.0.0 OK  1667436661 h18-20020a9d7992000000b00637032a39a3sm5538252otm.6 - gsmtp<EOL>
+22/11/02 21:51:00 >> QUIT<EOL>
+22/11/02 21:51:01 << 221 2.0.0 closing connection h18-20020a9d7992000000b00637032a39a3sm5538252otm.6 - gsmtp<EOL>
+22/11/02 21:51:01 ** Disconnected.
+22/11/02 21:51:01 ** Disconnected.
+22/11/02 21:51:01 ** Disconnected.
+22/11/02 21:51:41 ** --- MESSAGE BEGIN ---
+22/11/02 21:51:42 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:51:42 ** Subject: Redefinição de Senha
+22/11/02 21:51:42 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:51:42 ** 
+22/11/02 21:51:42 ** Sua nova senha: 5e93d9
+22/11/02 21:51:42 ** --- MESSAGE END ---
+22/11/02 21:51:43 ** Connecting to smtp.gmail.com:587
+22/11/02 21:51:43 ** Connected.
+22/11/02 21:51:43 << 220 smtp.gmail.com ESMTP 25-20020aca1019000000b0035956747d07sm5099948oiq.17 - gsmtp<EOL>
+22/11/02 21:51:43 >> EHLO localhost<EOL>
+22/11/02 21:51:43 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:51:43 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:51:43 >> STARTTLS<EOL>
+22/11/02 21:51:43 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:51:44 >> EHLO localhost<EOL>
+22/11/02 21:51:44 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:51:44 >> AUTH LOGIN<EOL>
+22/11/02 21:51:44 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:51:44 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:51:44 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:51:44 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:51:45 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:51:45 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:51:45 << 250 2.1.0 OK 25-20020aca1019000000b0035956747d07sm5099948oiq.17 - gsmtp<EOL>
+22/11/02 21:51:45 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:51:45 << 250 2.1.5 OK 25-20020aca1019000000b0035956747d07sm5099948oiq.17 - gsmtp<EOL>
+22/11/02 21:51:45 >> DATA<EOL>
+22/11/02 21:51:45 << 354  Go ahead 25-20020aca1019000000b0035956747d07sm5099948oiq.17 - gsmtp<EOL>
+22/11/02 21:51:45 >> Date: Wed, 2 Nov 2022 21:51:45 -0300<EOL>
+22/11/02 21:51:45 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:51:45 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:51:45 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:51:45 >> <EOL>
+22/11/02 21:51:45 >> Sua nova senha: 5e93d9<EOL>
+22/11/02 21:51:45 >> .<EOL>
+22/11/02 21:51:46 << 250 2.0.0 OK  1667436706 25-20020aca1019000000b0035956747d07sm5099948oiq.17 - gsmtp<EOL>
+22/11/02 21:51:46 >> QUIT<EOL>
+22/11/02 21:51:46 << 221 2.0.0 closing connection 25-20020aca1019000000b0035956747d07sm5099948oiq.17 - gsmtp<EOL>
+22/11/02 21:51:46 ** Disconnecting from smtp.gmail.com:587
+22/11/02 21:51:46 ** Disconnected.
+22/11/02 21:51:46 ** Disconnected.
+22/11/02 21:55:20 ** --- MESSAGE BEGIN ---
+22/11/02 21:55:20 ** To: mailstreamlineserver@gmail.com
+22/11/02 21:55:20 ** Subject: Redefinição de Senha
+22/11/02 21:55:20 ** From: mailstreamlineserver@gmail.com
+22/11/02 21:55:20 ** 
+22/11/02 21:55:20 ** Sua nova senha: 7b8e2e
+22/11/02 21:55:20 ** --- MESSAGE END ---
+22/11/02 21:55:21 ** Connecting to smtp.gmail.com:587
+22/11/02 21:55:22 ** Connected.
+22/11/02 21:55:22 << 220 smtp.gmail.com ESMTP c14-20020a4ad20e000000b004982f2d3c03sm4965130oos.25 - gsmtp<EOL>
+22/11/02 21:55:22 >> EHLO localhost<EOL>
+22/11/02 21:55:22 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:55:22 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 21:55:22 >> STARTTLS<EOL>
+22/11/02 21:55:22 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 21:55:22 >> EHLO localhost<EOL>
+22/11/02 21:55:22 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 21:55:22 >> AUTH LOGIN<EOL>
+22/11/02 21:55:22 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 21:55:22 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 21:55:23 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 21:55:23 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 21:55:23 << 235 2.7.0 Accepted<EOL>
+22/11/02 21:55:23 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:55:23 << 250 2.1.0 OK c14-20020a4ad20e000000b004982f2d3c03sm4965130oos.25 - gsmtp<EOL>
+22/11/02 21:55:23 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 21:55:23 << 250 2.1.5 OK c14-20020a4ad20e000000b004982f2d3c03sm4965130oos.25 - gsmtp<EOL>
+22/11/02 21:55:23 >> DATA<EOL>
+22/11/02 21:55:24 << 354  Go ahead c14-20020a4ad20e000000b004982f2d3c03sm4965130oos.25 - gsmtp<EOL>
+22/11/02 21:55:24 >> Date: Wed, 2 Nov 2022 21:55:24 -0300<EOL>
+22/11/02 21:55:24 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:55:24 >> Subject: Redefinição de Senha<EOL>
+22/11/02 21:55:24 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 21:55:24 >> <EOL>
+22/11/02 21:55:24 >> Sua nova senha: 7b8e2e<EOL>
+22/11/02 21:55:24 >> .<EOL>
+22/11/02 21:55:25 << 250 2.0.0 OK  1667436925 c14-20020a4ad20e000000b004982f2d3c03sm4965130oos.25 - gsmtp<EOL>
+22/11/02 21:55:25 >> QUIT<EOL>
+22/11/02 21:55:25 << 221 2.0.0 closing connection c14-20020a4ad20e000000b004982f2d3c03sm4965130oos.25 - gsmtp<EOL>
+22/11/02 21:55:25 ** Disconnecting from smtp.gmail.com:587
+22/11/02 21:55:25 ** Disconnected.
+22/11/02 21:55:25 ** Disconnected.
+22/11/02 22:00:28 ** --- MESSAGE BEGIN ---
+22/11/02 22:00:28 ** To: matilde@gmail.com
+22/11/02 22:00:28 ** Subject: Redefinição de Senha
+22/11/02 22:00:28 ** From: mailstreamlineserver@gmail.com
+22/11/02 22:00:28 ** 
+22/11/02 22:00:28 ** O seu código para redefinir a senha: 5caa8f
+22/11/02 22:00:28 ** --- MESSAGE END ---
+22/11/02 22:00:29 ** Connecting to smtp.gmail.com:587
+22/11/02 22:00:29 ** Connected.
+22/11/02 22:00:29 << 220 smtp.gmail.com ESMTP u2-20020a056808114200b003436fa2c23bsm5156978oiu.7 - gsmtp<EOL>
+22/11/02 22:00:29 >> EHLO localhost<EOL>
+22/11/02 22:00:29 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 22:00:29 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 22:00:29 >> STARTTLS<EOL>
+22/11/02 22:00:29 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 22:00:30 >> EHLO localhost<EOL>
+22/11/02 22:00:30 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 22:00:30 >> AUTH LOGIN<EOL>
+22/11/02 22:00:30 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 22:00:30 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 22:00:30 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 22:00:30 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 22:00:30 << 235 2.7.0 Accepted<EOL>
+22/11/02 22:00:30 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 22:00:31 << 250 2.1.0 OK u2-20020a056808114200b003436fa2c23bsm5156978oiu.7 - gsmtp<EOL>
+22/11/02 22:00:31 >> RCPT TO: <matilde@gmail.com><EOL>
+22/11/02 22:00:31 << 250 2.1.5 OK u2-20020a056808114200b003436fa2c23bsm5156978oiu.7 - gsmtp<EOL>
+22/11/02 22:00:31 >> DATA<EOL>
+22/11/02 22:00:31 << 354  Go ahead u2-20020a056808114200b003436fa2c23bsm5156978oiu.7 - gsmtp<EOL>
+22/11/02 22:00:31 >> Date: Wed, 2 Nov 2022 22:00:31 -0300<EOL>
+22/11/02 22:00:31 >> To: matilde@gmail.com<EOL>
+22/11/02 22:00:31 >> Subject: Redefinição de Senha<EOL>
+22/11/02 22:00:31 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 22:00:31 >> <EOL>
+22/11/02 22:00:31 >> O seu código para redefinir a senha: 5caa8f<EOL>
+22/11/02 22:00:31 >> .<EOL>
+22/11/02 22:00:32 << 250 2.0.0 OK  1667437232 u2-20020a056808114200b003436fa2c23bsm5156978oiu.7 - gsmtp<EOL>
+22/11/02 22:00:32 >> QUIT<EOL>
+22/11/02 22:00:32 << 221 2.0.0 closing connection u2-20020a056808114200b003436fa2c23bsm5156978oiu.7 - gsmtp<EOL>
+22/11/02 22:00:32 ** Disconnected.
+22/11/02 22:00:32 ** Disconnected.
+22/11/02 22:00:32 ** Disconnected.
+22/11/02 22:15:55 ** --- MESSAGE BEGIN ---
+22/11/02 22:15:55 ** To: mailstreamlineserver@gmail.com
+22/11/02 22:15:55 ** Subject: Redefinição de Senha
+22/11/02 22:15:55 ** From: mailstreamlineserver@gmail.com
+22/11/02 22:15:55 ** 
+22/11/02 22:15:55 ** O seu código para redefinir a senha: 02ae8c
+22/11/02 22:15:55 ** --- MESSAGE END ---
+22/11/02 22:15:57 ** Connecting to smtp.gmail.com:587
+22/11/02 22:15:58 ** Connected.
+22/11/02 22:15:58 << 220 smtp.gmail.com ESMTP l6-20020a4a2706000000b0047537233dfasm5012583oof.21 - gsmtp<EOL>
+22/11/02 22:15:58 >> EHLO localhost<EOL>
+22/11/02 22:15:58 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 22:15:58 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 22:15:58 >> STARTTLS<EOL>
+22/11/02 22:15:58 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 22:15:58 >> EHLO localhost<EOL>
+22/11/02 22:15:58 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 22:15:58 >> AUTH LOGIN<EOL>
+22/11/02 22:15:59 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 22:15:59 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 22:15:59 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 22:15:59 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 22:15:59 << 235 2.7.0 Accepted<EOL>
+22/11/02 22:15:59 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 22:15:59 << 250 2.1.0 OK l6-20020a4a2706000000b0047537233dfasm5012583oof.21 - gsmtp<EOL>
+22/11/02 22:15:59 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 22:15:59 << 250 2.1.5 OK l6-20020a4a2706000000b0047537233dfasm5012583oof.21 - gsmtp<EOL>
+22/11/02 22:15:59 >> DATA<EOL>
+22/11/02 22:16:00 << 354  Go ahead l6-20020a4a2706000000b0047537233dfasm5012583oof.21 - gsmtp<EOL>
+22/11/02 22:16:00 >> Date: Wed, 2 Nov 2022 22:16:00 -0300<EOL>
+22/11/02 22:16:00 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 22:16:00 >> Subject: Redefinição de Senha<EOL>
+22/11/02 22:16:00 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 22:16:00 >> <EOL>
+22/11/02 22:16:00 >> O seu código para redefinir a senha: 02ae8c<EOL>
+22/11/02 22:16:00 >> .<EOL>
+22/11/02 22:16:01 << 250 2.0.0 OK  1667438161 l6-20020a4a2706000000b0047537233dfasm5012583oof.21 - gsmtp<EOL>
+22/11/02 22:16:01 >> QUIT<EOL>
+22/11/02 22:16:01 << 221 2.0.0 closing connection l6-20020a4a2706000000b0047537233dfasm5012583oof.21 - gsmtp<EOL>
+22/11/02 22:16:01 ** Disconnecting from smtp.gmail.com:587
+22/11/02 22:16:01 ** Disconnected.
+22/11/02 22:16:01 ** Disconnected.
+22/11/02 22:16:01 ** --- MESSAGE BEGIN ---
+22/11/02 22:16:01 ** To: 
+22/11/02 22:16:01 ** Subject: Redefinição de Senha
+22/11/02 22:16:01 ** From: mailstreamlineserver@gmail.com
+22/11/02 22:16:01 ** 
+22/11/02 22:16:01 ** A Sua Senha foi alterada com sucesso!
+22/11/02 22:16:01 **     <br>
+22/11/02 22:16:01 **     <br>
+22/11/02 22:16:01 **     Sua nova senha: 
+22/11/02 22:16:01 ** --- MESSAGE END ---
+22/11/02 22:16:01 ** Message is missing recipient's address
+22/11/02 22:35:55 ** --- MESSAGE BEGIN ---
+22/11/02 22:35:55 ** To: matilde@gmail.com
+22/11/02 22:35:55 ** Subject: Redefinição de Senha
+22/11/02 22:35:55 ** From: mailstreamlineserver@gmail.com
+22/11/02 22:35:55 ** 
+22/11/02 22:35:55 ** O seu código para redefinir a senha: aad0d1
+22/11/02 22:35:55 ** --- MESSAGE END ---
+22/11/02 22:35:56 ** Connecting to smtp.gmail.com:587
+22/11/02 22:35:57 ** Connected.
+22/11/02 22:35:57 << 220 smtp.gmail.com ESMTP d25-20020a0568301b7900b0066a9ba5094fsm5561628ote.1 - gsmtp<EOL>
+22/11/02 22:35:57 >> EHLO localhost<EOL>
+22/11/02 22:35:57 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 22:35:57 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 22:35:57 >> STARTTLS<EOL>
+22/11/02 22:35:57 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 22:35:57 >> EHLO localhost<EOL>
+22/11/02 22:35:58 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 22:35:58 >> AUTH LOGIN<EOL>
+22/11/02 22:35:58 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 22:35:58 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 22:35:58 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 22:35:58 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 22:35:58 << 235 2.7.0 Accepted<EOL>
+22/11/02 22:35:58 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 22:35:58 << 250 2.1.0 OK d25-20020a0568301b7900b0066a9ba5094fsm5561628ote.1 - gsmtp<EOL>
+22/11/02 22:35:58 >> RCPT TO: <matilde@gmail.com><EOL>
+22/11/02 22:35:59 << 250 2.1.5 OK d25-20020a0568301b7900b0066a9ba5094fsm5561628ote.1 - gsmtp<EOL>
+22/11/02 22:35:59 >> DATA<EOL>
+22/11/02 22:35:59 << 354  Go ahead d25-20020a0568301b7900b0066a9ba5094fsm5561628ote.1 - gsmtp<EOL>
+22/11/02 22:35:59 >> Date: Wed, 2 Nov 2022 22:35:59 -0300<EOL>
+22/11/02 22:35:59 >> To: matilde@gmail.com<EOL>
+22/11/02 22:35:59 >> Subject: Redefinição de Senha<EOL>
+22/11/02 22:35:59 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 22:35:59 >> <EOL>
+22/11/02 22:35:59 >> O seu código para redefinir a senha: aad0d1<EOL>
+22/11/02 22:35:59 >> .<EOL>
+22/11/02 22:36:00 << 250 2.0.0 OK  1667439360 d25-20020a0568301b7900b0066a9ba5094fsm5561628ote.1 - gsmtp<EOL>
+22/11/02 22:36:00 >> QUIT<EOL>
+22/11/02 22:36:00 << 221 2.0.0 closing connection d25-20020a0568301b7900b0066a9ba5094fsm5561628ote.1 - gsmtp<EOL>
+22/11/02 22:36:00 ** Disconnected.
+22/11/02 22:36:00 ** Disconnected.
+22/11/02 22:36:00 ** Disconnected.
+22/11/02 22:37:00 ** --- MESSAGE BEGIN ---
+22/11/02 22:37:00 ** To: matilde@gmail.com
+22/11/02 22:37:00 ** Subject: Redefinição de Senha
+22/11/02 22:37:00 ** From: mailstreamlineserver@gmail.com
+22/11/02 22:37:00 ** 
+22/11/02 22:37:00 ** O seu código para redefinir a senha: 295019
+22/11/02 22:37:00 ** --- MESSAGE END ---
+22/11/02 22:37:01 ** Connecting to smtp.gmail.com:587
+22/11/02 22:37:01 ** Connected.
+22/11/02 22:37:01 << 220 smtp.gmail.com ESMTP p1-20020a9d6941000000b0066c483fdb4dsm4656541oto.4 - gsmtp<EOL>
+22/11/02 22:37:01 >> EHLO localhost<EOL>
+22/11/02 22:37:01 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 22:37:01 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 22:37:01 >> STARTTLS<EOL>
+22/11/02 22:37:02 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 22:37:02 >> EHLO localhost<EOL>
+22/11/02 22:37:02 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 22:37:02 >> AUTH LOGIN<EOL>
+22/11/02 22:37:02 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 22:37:02 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 22:37:02 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 22:37:02 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 22:37:03 << 235 2.7.0 Accepted<EOL>
+22/11/02 22:37:03 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 22:37:03 << 250 2.1.0 OK p1-20020a9d6941000000b0066c483fdb4dsm4656541oto.4 - gsmtp<EOL>
+22/11/02 22:37:03 >> RCPT TO: <matilde@gmail.com><EOL>
+22/11/02 22:37:03 << 250 2.1.5 OK p1-20020a9d6941000000b0066c483fdb4dsm4656541oto.4 - gsmtp<EOL>
+22/11/02 22:37:03 >> DATA<EOL>
+22/11/02 22:37:03 << 354  Go ahead p1-20020a9d6941000000b0066c483fdb4dsm4656541oto.4 - gsmtp<EOL>
+22/11/02 22:37:03 >> Date: Wed, 2 Nov 2022 22:37:03 -0300<EOL>
+22/11/02 22:37:03 >> To: matilde@gmail.com<EOL>
+22/11/02 22:37:03 >> Subject: Redefinição de Senha<EOL>
+22/11/02 22:37:03 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 22:37:03 >> <EOL>
+22/11/02 22:37:03 >> O seu código para redefinir a senha: 295019<EOL>
+22/11/02 22:37:03 >> .<EOL>
+22/11/02 22:37:04 << 250 2.0.0 OK  1667439424 p1-20020a9d6941000000b0066c483fdb4dsm4656541oto.4 - gsmtp<EOL>
+22/11/02 22:37:04 >> QUIT<EOL>
+22/11/02 22:37:04 << 221 2.0.0 closing connection p1-20020a9d6941000000b0066c483fdb4dsm4656541oto.4 - gsmtp<EOL>
+22/11/02 22:37:04 ** Disconnected.
+22/11/02 22:37:04 ** Disconnected.
+22/11/02 22:37:04 ** Disconnected.
+22/11/02 22:38:08 ** --- MESSAGE BEGIN ---
+22/11/02 22:38:08 ** To: matilde@gmail.com
+22/11/02 22:38:08 ** Subject: Redefinição de Senha
+22/11/02 22:38:08 ** From: mailstreamlineserver@gmail.com
+22/11/02 22:38:08 ** 
+22/11/02 22:38:08 ** O seu código para redefinir a senha: f6f9b2
+22/11/02 22:38:08 ** --- MESSAGE END ---
+22/11/02 22:38:09 ** Connecting to smtp.gmail.com:587
+22/11/02 22:38:10 ** Connected.
+22/11/02 22:38:10 << 220 smtp.gmail.com ESMTP m6-20020a0568080f0600b0035173c2fddasm5164038oiw.51 - gsmtp<EOL>
+22/11/02 22:38:10 >> EHLO localhost<EOL>
+22/11/02 22:38:10 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 22:38:10 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 22:38:10 >> STARTTLS<EOL>
+22/11/02 22:38:10 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 22:38:10 >> EHLO localhost<EOL>
+22/11/02 22:38:11 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 22:38:11 >> AUTH LOGIN<EOL>
+22/11/02 22:38:11 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 22:38:11 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 22:38:11 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 22:38:11 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 22:38:11 << 235 2.7.0 Accepted<EOL>
+22/11/02 22:38:11 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 22:38:12 << 250 2.1.0 OK m6-20020a0568080f0600b0035173c2fddasm5164038oiw.51 - gsmtp<EOL>
+22/11/02 22:38:12 >> RCPT TO: <matilde@gmail.com><EOL>
+22/11/02 22:38:12 << 250 2.1.5 OK m6-20020a0568080f0600b0035173c2fddasm5164038oiw.51 - gsmtp<EOL>
+22/11/02 22:38:12 >> DATA<EOL>
+22/11/02 22:38:12 << 354  Go ahead m6-20020a0568080f0600b0035173c2fddasm5164038oiw.51 - gsmtp<EOL>
+22/11/02 22:38:12 >> Date: Wed, 2 Nov 2022 22:38:12 -0300<EOL>
+22/11/02 22:38:12 >> To: matilde@gmail.com<EOL>
+22/11/02 22:38:12 >> Subject: Redefinição de Senha<EOL>
+22/11/02 22:38:12 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 22:38:12 >> <EOL>
+22/11/02 22:38:12 >> O seu código para redefinir a senha: f6f9b2<EOL>
+22/11/02 22:38:12 >> .<EOL>
+22/11/02 22:38:13 << 250 2.0.0 OK  1667439494 m6-20020a0568080f0600b0035173c2fddasm5164038oiw.51 - gsmtp<EOL>
+22/11/02 22:38:13 >> QUIT<EOL>
+22/11/02 22:38:14 << 221 2.0.0 closing connection m6-20020a0568080f0600b0035173c2fddasm5164038oiw.51 - gsmtp<EOL>
+22/11/02 22:38:14 ** Disconnecting from smtp.gmail.com:587
+22/11/02 22:38:14 ** Disconnected.
+22/11/02 22:38:14 ** Disconnected.
+22/11/02 22:38:15 ** Disconnecting from smtp.gmail.com:587
+22/11/02 22:42:31 ** --- MESSAGE BEGIN ---
+22/11/02 22:42:31 ** To: matilde@gmail.com
+22/11/02 22:42:31 ** Subject: Redefinição de Senha
+22/11/02 22:42:31 ** From: mailstreamlineserver@gmail.com
+22/11/02 22:42:31 ** 
+22/11/02 22:42:31 ** O seu código para redefinir a senha: f5f419
+22/11/02 22:42:31 ** --- MESSAGE END ---
+22/11/02 22:42:32 ** Connecting to smtp.gmail.com:587
+22/11/02 22:42:32 ** Connected.
+22/11/02 22:42:32 << 220 smtp.gmail.com ESMTP s6-20020a056808008600b00354b619a375sm5168001oic.0 - gsmtp<EOL>
+22/11/02 22:42:32 >> EHLO localhost<EOL>
+22/11/02 22:42:32 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 22:42:32 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 22:42:32 >> STARTTLS<EOL>
+22/11/02 22:42:33 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 22:42:33 >> EHLO localhost<EOL>
+22/11/02 22:42:33 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 22:42:33 >> AUTH LOGIN<EOL>
+22/11/02 22:42:33 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 22:42:33 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 22:42:33 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 22:42:33 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 22:42:34 << 235 2.7.0 Accepted<EOL>
+22/11/02 22:42:34 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 22:42:34 << 250 2.1.0 OK s6-20020a056808008600b00354b619a375sm5168001oic.0 - gsmtp<EOL>
+22/11/02 22:42:34 >> RCPT TO: <matilde@gmail.com><EOL>
+22/11/02 22:42:34 << 250 2.1.5 OK s6-20020a056808008600b00354b619a375sm5168001oic.0 - gsmtp<EOL>
+22/11/02 22:42:34 >> DATA<EOL>
+22/11/02 22:42:34 << 354  Go ahead s6-20020a056808008600b00354b619a375sm5168001oic.0 - gsmtp<EOL>
+22/11/02 22:42:34 >> Date: Wed, 2 Nov 2022 22:42:34 -0300<EOL>
+22/11/02 22:42:34 >> To: matilde@gmail.com<EOL>
+22/11/02 22:42:34 >> Subject: Redefinição de Senha<EOL>
+22/11/02 22:42:34 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 22:42:34 >> <EOL>
+22/11/02 22:42:34 >> O seu código para redefinir a senha: f5f419<EOL>
+22/11/02 22:42:34 >> .<EOL>
+22/11/02 22:42:35 << 250 2.0.0 OK  1667439755 s6-20020a056808008600b00354b619a375sm5168001oic.0 - gsmtp<EOL>
+22/11/02 22:42:35 >> QUIT<EOL>
+22/11/02 22:42:35 << 221 2.0.0 closing connection s6-20020a056808008600b00354b619a375sm5168001oic.0 - gsmtp<EOL>
+22/11/02 22:42:35 ** Disconnected.
+22/11/02 22:42:35 ** Disconnected.
+22/11/02 22:42:35 ** Disconnected.
+22/11/02 23:19:45 ** --- MESSAGE BEGIN ---
+22/11/02 23:19:45 ** To: mailstreamlineserver@gmail.com
+22/11/02 23:19:45 ** Subject: Redefinição de Senha
+22/11/02 23:19:45 ** From: mailstreamlineserver@gmail.com
+22/11/02 23:19:45 ** 
+22/11/02 23:19:45 ** O seu código para redefinir a senha: eb229b
+22/11/02 23:19:45 ** --- MESSAGE END ---
+22/11/02 23:19:49 ** Connecting to smtp.gmail.com:587
+22/11/02 23:19:50 ** Connected.
+22/11/02 23:19:50 << 220 smtp.gmail.com ESMTP h6-20020aca1806000000b00354932bae03sm5153897oih.10 - gsmtp<EOL>
+22/11/02 23:19:50 >> EHLO localhost<EOL>
+22/11/02 23:19:51 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 23:19:51 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 23:19:51 >> STARTTLS<EOL>
+22/11/02 23:19:51 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 23:19:51 >> EHLO localhost<EOL>
+22/11/02 23:19:51 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 23:19:51 >> AUTH LOGIN<EOL>
+22/11/02 23:19:51 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 23:19:51 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 23:19:52 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 23:19:52 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 23:19:52 << 235 2.7.0 Accepted<EOL>
+22/11/02 23:19:52 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 23:19:52 << 250 2.1.0 OK h6-20020aca1806000000b00354932bae03sm5153897oih.10 - gsmtp<EOL>
+22/11/02 23:19:52 >> RCPT TO: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 23:19:53 << 250 2.1.5 OK h6-20020aca1806000000b00354932bae03sm5153897oih.10 - gsmtp<EOL>
+22/11/02 23:19:53 >> DATA<EOL>
+22/11/02 23:19:53 << 354  Go ahead h6-20020aca1806000000b00354932bae03sm5153897oih.10 - gsmtp<EOL>
+22/11/02 23:19:53 >> Date: Wed, 2 Nov 2022 23:19:53 -0300<EOL>
+22/11/02 23:19:53 >> To: mailstreamlineserver@gmail.com<EOL>
+22/11/02 23:19:53 >> Subject: Redefinição de Senha<EOL>
+22/11/02 23:19:53 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 23:19:53 >> <EOL>
+22/11/02 23:19:53 >> O seu código para redefinir a senha: eb229b<EOL>
+22/11/02 23:19:53 >> .<EOL>
+22/11/02 23:19:54 << 250 2.0.0 OK  1667441994 h6-20020aca1806000000b00354932bae03sm5153897oih.10 - gsmtp<EOL>
+22/11/02 23:19:54 >> QUIT<EOL>
+22/11/02 23:19:54 << 221 2.0.0 closing connection h6-20020aca1806000000b00354932bae03sm5153897oih.10 - gsmtp<EOL>
+22/11/02 23:19:54 ** Disconnecting from smtp.gmail.com:587
+22/11/02 23:19:54 ** Disconnected.
+22/11/02 23:19:54 ** Disconnected.
+22/11/02 23:32:46 ** --- MESSAGE BEGIN ---
+22/11/02 23:32:46 ** To: matilde@gmail.com
+22/11/02 23:32:46 ** Subject: Redefinição de Senha
+22/11/02 23:32:46 ** From: mailstreamlineserver@gmail.com
+22/11/02 23:32:46 ** 
+22/11/02 23:32:46 ** O seu código para redefinir a senha: e798d9
+22/11/02 23:32:46 ** --- MESSAGE END ---
+22/11/02 23:32:47 ** Connecting to smtp.gmail.com:587
+22/11/02 23:32:47 ** Connected.
+22/11/02 23:32:47 << 220 smtp.gmail.com ESMTP e46-20020a9d01b1000000b0066bb73cce68sm5567146ote.69 - gsmtp<EOL>
+22/11/02 23:32:47 >> EHLO localhost<EOL>
+22/11/02 23:32:48 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 23:32:48 ** Authenticating as mailstreamlineserver@gmail.com
+22/11/02 23:32:48 >> STARTTLS<EOL>
+22/11/02 23:32:48 << 220 2.0.0 Ready to start TLS<EOL>
+22/11/02 23:32:48 >> EHLO localhost<EOL>
+22/11/02 23:32:48 << 250-smtp.gmail.com at your service, [201.1.114.108]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+22/11/02 23:32:48 >> AUTH LOGIN<EOL>
+22/11/02 23:32:48 << 334 VXNlcm5hbWU6<EOL>
+22/11/02 23:32:48 >> bWFpbHN0cmVhbWxpbmVzZXJ2ZXJAZ21haWwuY29t<EOL>
+22/11/02 23:32:48 << 334 UGFzc3dvcmQ6<EOL>
+22/11/02 23:32:48 >> aGd3ZWx0d2Vmdm1oc3V3bA==<EOL>
+22/11/02 23:32:49 << 235 2.7.0 Accepted<EOL>
+22/11/02 23:32:49 >> MAIL FROM: <mailstreamlineserver@gmail.com><EOL>
+22/11/02 23:32:49 << 250 2.1.0 OK e46-20020a9d01b1000000b0066bb73cce68sm5567146ote.69 - gsmtp<EOL>
+22/11/02 23:32:49 >> RCPT TO: <matilde@gmail.com><EOL>
+22/11/02 23:32:49 << 250 2.1.5 OK e46-20020a9d01b1000000b0066bb73cce68sm5567146ote.69 - gsmtp<EOL>
+22/11/02 23:32:49 >> DATA<EOL>
+22/11/02 23:32:49 << 354  Go ahead e46-20020a9d01b1000000b0066bb73cce68sm5567146ote.69 - gsmtp<EOL>
+22/11/02 23:32:50 >> Date: Wed, 2 Nov 2022 23:32:49 -0300<EOL>
+22/11/02 23:32:50 >> To: matilde@gmail.com<EOL>
+22/11/02 23:32:50 >> Subject: Redefinição de Senha<EOL>
+22/11/02 23:32:50 >> From: mailstreamlineserver@gmail.com<EOL>
+22/11/02 23:32:50 >> <EOL>
+22/11/02 23:32:50 >> O seu código para redefinir a senha: e798d9<EOL>
+22/11/02 23:32:50 >> .<EOL>
+22/11/02 23:32:50 << 250 2.0.0 OK  1667442771 e46-20020a9d01b1000000b0066bb73cce68sm5567146ote.69 - gsmtp<EOL>
+22/11/02 23:32:50 >> QUIT<EOL>
+22/11/02 23:32:50 << 221 2.0.0 closing connection e46-20020a9d01b1000000b0066bb73cce68sm5567146ote.69 - gsmtp<EOL>
+22/11/02 23:32:50 ** Disconnected.
+22/11/02 23:32:50 ** Disconnected.
+22/11/02 23:32:50 ** Disconnected.

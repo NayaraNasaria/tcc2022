@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+@media screen and (min-width: 650px) {
+  .container {
+    max-width: 700px;
+    padding: 0;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .card-body {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .buttons {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  #infocima {
+    margin-top: 30px
+  }
+
+}
+
+body {
+  background-color: #f2f2f2;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.buttons {
+  margin-bottom: 15px;
+}
+
+
+#btnVoltar {
+  width: 30%;
+  padding: 8px;
+  float: right;
+  border-radius: 10px;
+  background-color: #2e608c;
+  color: white;
+  border: #2e608c;
+}
+
+
+/*botão de voltar da home estilização*/
+#btnVoltarHome {
+  float: right;
+  border-radius: 10px;
+  background-color: #2e608c;
+  color: white;
+  border: #2e608c;
+  margin-top: 15px;
+  height: 35px;
+  text-align: center;
+  padding: 0;
+  width: 90px;
+  margin-right: 20px;
+}
+
+.card {
+  width: 100%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  background-color: #D9D9D9;
+  color: #000;
+  border-radius: 15px;
+}
+
+.form-group {
+  margin-top: 5% !important;
+}
+
+.label {
+  padding-bottom: 2px;
+}
+
+.select2 {
+  color: black;
+  width: 100% !important;
+}
+
+#btnEntrar {
+  width: 45%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  padding: 10px;
+  padding-right: 15px;
+  border-radius: 10px;
+  background-color: #19354D;
+  color: white;
+  border: #19354D;
+  margin-right: 10%;
+}
+
+#btnPress {
+  width: 45%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  padding: 10px;
+  padding-right: 15px;
+  border-radius: 10px;
+  background-color: #2e608c;
+  color: white;
+  border: #2e608c;
+  float: right;
+}
+
+#btnSeeMore {
+  width: 45%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 10px;
+  padding-right: 15px;
+  border-radius: 10px;
+  background-color: #2e608c;
+  color: white;
+  border: #2e608c;
+}
+
+.texto {
+  text-align: center;
+  color: #607f99;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+.accordion-color {
+  margin-top: 5%;
+  background: #f2f2f2;
+  border-radius: 10px;
+}
+
+.accordion-color:hover {
+  background: #e6e2e2;
+}
+
+.accordion-body {
+  padding: 4%;
+}
+
+.estrelas {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.estrelas input[type=radio] {
+  display: none;
+}
+
+.estrelas label i.fa {
+  font-size: 0.8em;
+}
+
+.estrelas label i.fa:before {
+  content: '\f005';
+  color: #FC0;
+}
+
+.estrelas input[type=radio]:checked~label i.fa:before {
+  color: #CCC;
+}
+
+.flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto
+}
+
+.padding {
+  margin-bottom: 5%;
+}
+
+@media (max-width:991.98px) {
+  .padding {
+    padding: 1.5rem
+  }
+}
+
+@media (max-width:767.98px) {
+  .padding {
+    padding: 1rem
+  }
+}
+
+.pagination,
+.jsgrid .jsgrid-pager {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem
+}
+
+.page-link {
+  color: black;
+  background: #f2f2f2;
+}
+
+.pagination.pagination-rounded-flat .page-item {
+  margin: 0 .25rem
+}
+
+.pagination-success .page-item.active .page-link {
+  background: #001527;
+  border-color: #001527;
+}
+
+.pagination.pagination-rounded-flat .page-item .page-link {
+  border: none;
+  border-radius: 50px;
+}
+
+/* radio button */
+
+* {
+  box-sizing: border-box;
+}
+
+.l-radio {
+  padding: 6px;
+  border-radius: 50px;
+  display: flex;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  margin: 8px 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.l-radio:hover,
+.l-radio:focus-within {
+  background: rgba(159, 159, 159, 0.1);
+}
+
+.l-radio input {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: none;
+  border: 0;
+  box-shadow: inset 0 0 0 1px #9F9F9F;
+  box-shadow: inset 0 0 0 1.5px #9F9F9F;
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  transition: box-shadow 150ms cubic-bezier(0.95, 0.15, 0.5, 1.25);
+  pointer-events: none;
+  float: left;
+}
+
+.l-radio input:focus {
+  outline: none;
+}
+
+.l-radio input:checked {
+  box-shadow: inset 0 0 0 6px #66668C;
+  float: left;
+}
+
+.l-radio span {
+  vertical-align: middle;
+  text-align: left;
+  display: inline-block;
+  line-height: 20px;
+  padding: 0 8px;
+}
+
+/*barra responsiva*/
+
+@-webkit-keyframes blob-1-anim {
+  0% {
+    transform: translateX(-40%) translateY(0);
+  }
+
+  14% {
+    transform: translateX(-40%) translateY(-8px);
+  }
+
+  24% {
+    transform: translateX(-40%) translateY(0);
+  }
+
+  100% {
+    transform: translateX(-40%) translateY(0);
+  }
+}
+
+@keyframes blob-1-anim {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  14% {
+    transform: translateX(-50%) translateY(-8px);
+  }
+
+  24% {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@-webkit-keyframes blob-2-anim {
+  0% {
+    transform: scale(1) translate(-30%, 10px);
+  }
+
+  30% {
+    transform: scale(1) translate(-30%, 10px);
+  }
+
+  70% {
+    transform: scale(1) translate(-30%, 10px);
+  }
+
+  95% {
+    transform: scale(1) translate(-30%, 26px);
+  }
+
+  100% {
+    transform: scale(1) translate(-30%, 10px);
+  }
+}
+
+@keyframes blob-2-anim {
+  0% {
+    transform: scale(1) translate(-50%, 10px);
+  }
+
+  30% {
+    transform: scale(1) translate(-50%, 10px);
+  }
+
+  70% {
+    transform: scale(1) translate(-50%, 10px);
+  }
+
+  95% {
+    transform: scale(1) translate(-50%, 26px);
+  }
+
+  100% {
+    transform: scale(1) translate(-50%, 10px);
+  }
+}
+
+@-webkit-keyframes scrolly {
+  0% {
+    transform: translate3d(0, -150%, 0) rotateX(90deg) scale(0.5) skewX(3deg);
+  }
+
+  30% {
+    transform: translate3d(0, 0, 0) rotateX(0deg) scale(1) skewX(0deg);
+  }
+
+  70% {
+    transform: translate3d(0, 0, 0) rotateX(0deg) scale(1) skewX(0deg);
+  }
+
+  95% {
+    transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
+  }
+
+  100% {
+    transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
+  }
+}
+
+@keyframes scrolly {
+  0% {
+    transform: translate3d(0, -150%, 0) rotateX(90deg) scale(0.5) skewX(3deg);
+  }
+
+  30% {
+    transform: translate3d(0, 0, 0) rotateX(0deg) scale(1) skewX(0deg);
+  }
+
+  70% {
+    transform: translate3d(0, 0, 0) rotateX(0deg) scale(1) skewX(0deg);
+  }
+
+  95% {
+    transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
+  }
+
+  100% {
+    transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
+  }
+}

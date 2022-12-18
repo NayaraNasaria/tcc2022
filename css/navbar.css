@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+html {
+  margin-top: 0;
+  padding-top: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 989px) {
+  .home {
+    display: none;
+  }
+
+  .navbar-nav {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .user {
+    display: none;
+  }
+
+  .search-boxData {
+    display: none;
+  }
+
+  .search-textData {
+    display: none;
+  }
+
+  .search-btnData {
+    display: none;
+  }
+
+  .search-box {
+    position: relative;
+    background: #f2f2f2;
+    border: 1px solid;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .search-text {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0 10px;
+    width: 100px;
+  }
+
+  .search-btn {
+    width: 20px;
+    height: 40px;
+    border-radius: 50%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+  }
+
+  .search-txt {
+    display: none;
+  }
+
+  .navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    width: 160px;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    pointer-events: none;
+    color: #1C252E;
+  }
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+  position: absolute;
+  top: 20px;
+  width: 215px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background: #1C252E;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #BF9052;
+  background: #ffff;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav>.sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.sidebar-nav>.sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav>.sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+@media screen and (min-width: 990px) {
+  .navbar-nav {
+    padding-top: 40px;
+  }
+
+  #navbarSupportedContent {
+    padding-top: 10px;
+  }
+
+  .navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+    ;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    width: 160px;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    pointer-events: none;
+  }
+
+  .input-group {
+    width: 200px;
+    border: 1px solid #444;
+    border-radius: 20px;
+  }
+
+  .input-group input {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    border-radius: 20px;
+  }
+
+  .search-boxData {
+    position: relative;
+    background: #f2f2f2;
+    border: 1px solid;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .search-textData {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0 10px;
+    width: 100px;
+  }
+
+  .search-btnData {
+    width: 20px;
+    height: 40px;
+    border-radius: 50%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+  }
+
+  .homenav {
+    margin-top: 15px;
+  }
+
+  .search-box {
+    position: relative;
+    background: #f2f2f2;
+    border: none;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .search-text {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    width: 0;
+    transition: .5s;
+  }
+
+  .search-btn {
+    width: 20px;
+    height: 40px;
+    border-radius: 50%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+  }
+
+  .search-txt {
+    text-decoration: none;
+    color: black;
+    pointer-events: none;
+    margin-right: 10px;
+  }
+
+  .search-box:hover>.search-text {
+    width: 150px;
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .search-box:hover {
+    border: 1px solid;
+    margin-right: 10px;
+  }
+}
+
+/* botão de responsividade */
+
+.animated-icon1 {
+  width: 30px;
+  height: 23px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+.animated-icon1 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.animated-icon1 span {
+  background: #1C252E;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0rem;
+}
+
+.animated-icon1 span:nth-child(1) {
+  top: 0px;
+}
+
+.animated-icon1 span:nth-child(2),
+.animated-icon1 span:nth-child(3) {
+  top: 10px;
+}
+
+.animated-icon1 span:nth-child(4) {
+  top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+
+.animated-icon1.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.animated-icon1.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.animated-icon1.open span:nth-child(4) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}

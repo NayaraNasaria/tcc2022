@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+@media screen and (min-width: 650px) {
+  .container {
+    max-width: 700px;
+    padding: 0;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .card-body {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #182b3d;
+    color: white;
+    border-radius: 2%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    min-height: 500px;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    background-color: #182b3d;
+    color: white;
+    border-radius: 2%;
+  }
+}
+
+body {
+  background-color: #f2f2f2;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+.navbar-brand {
+  margin-top: 20px;
+}
+
+.container {
+  height: 100%;
+  align-items: center;
+  align-content: center;
+}
+
+#form fieldset:not(:first-of-type) {
+  display: none;
+}
+
+#form #progress,
+#form #progress2 {
+  overflow: hidden;
+
+  counter-reset: step;
+}
+
+#form #progress li {
+  list-style-type: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  float: left;
+  width: 30%;
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#form #progress2 li {
+  list-style-type: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  float: left;
+  width: 46%;
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#form #progress li:before,
+#form #progress2 li:before {
+  content: counter(step);
+  counter-increment: step;
+  width: 35px;
+  display: block;
+  line-height: 35px;
+  background: white;
+  color: #333;
+  border-radius: 35px;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  position: relative;
+  z-index: 1;
+}
+
+#form #progress li:after,
+#form #progress2 li:after {
+  content: "";
+  width: 100%;
+  background: white;
+  height: 2px;
+  position: absolute;
+  top: 16px;
+  left: -50%;
+}
+
+#form #progress li:first-child:after,
+#form #progress2 li:first-child:after {
+  content: none;
+}
+
+#form #progress li.ativo:before,
+#form #progress li.ativo:after,
+#form #progress2 li.ativo:before,
+#form #progress2 li.ativo:after {
+  background: #001527;
+  color: #f2f2f2;
+}
+
+#form fieldset {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #182b3d;
+  color: white;
+  border-radius: 2%;
+}
+
+.card-title {
+  text-align: center;
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card-text {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #d9d9d9;
+}
+
+fieldset {
+  color: #d9d9d9;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.form-group {
+  padding-top: 5% !important;
+}
+
+.form-grouprow {
+  margin-top: 5% !important;
+  flex-direction: row;
+  justify-content: space-between;
+  display: inline-block;
+  width: 100%;
+}
+
+.form-col {
+  float: left;
+}
+
+.form-col1 {
+  float: right;
+}
+
+.select2 {
+  color: black;
+  width: 100% !important;
+}
+
+.label {
+  padding-bottom: 5px;
+}
+
+#Bairro {
+  padding-top: 5%;
+}
+
+.label1 {
+  padding-bottom: 5px;
+  padding-left: 20%;
+}
+
+.labelcheckbox {
+  width: 90%;
+  color: #d9d9d9;
+  font-size: small;
+  padding-bottom: 20px;
+}
+
+.checkbox {
+  width: 10%;
+  float: left;
+  margin-top: 5px;
+}
+
+.btnEntrar {
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #001527;
+  color: white;
+  border: #001527;
+}
+
+.btnIcon {
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+
+#btnPress {
+  width: 100%;
+  margin-bottom: 5%;
+  padding: 10px;
+  padding-right: 15px;
+  border-radius: 10px;
+  background-color: #2e608c;
+  color: white;
+  border: #2e608c;
+}
+
+#prev {
+  width: 45%;
+  margin-bottom: 5%;
+  padding: 10px;
+  padding-right: 15px;
+  border-radius: 10px;
+  background-color: #2e608c;
+  color: white;
+  border: #2e608c;
+  margin-right: 10%;
+}
+
+#next {
+  width: 45%;
+  margin-bottom: 5%;
+  padding: 10px;
+  padding-right: 15px;
+  border-radius: 10px;
+  background-color: #2e608c;
+  color: white;
+  border: #2e608c;
+  float: right;
+}
+
+#next1 {
+  width: 100%;
+  margin-bottom: 5%;
+  padding: 10px;
+  padding-right: 15px;
+  border-radius: 10px;
+  background-color: #2e608c;
+  color: white;
+  border: #2e608c;
+}
+
+.texto {
+  text-align: center;
+  color: #607f99;
+  padding-bottom: 10px;
+}
+
+a {
+  color: #607f99;
+  text-decoration: underline;
+}
+
+.accordion-color {
+  margin-top: 5%;
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+
+.accordion-color:hover {
+  background: #c0bcbc;
+}
+
+.accordion-body {
+  padding: 4%;
+}
+
+/* footer */
+
+footer {
+  font-family: 'Quicksand', sans-serif;
+  ;
+  padding: 30px;
+  background-color: #d3d1d1;
+  color: #1c252e;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+}
+
+p {
+  margin: 0%;
+}
+
+/* validação do formulário */
+.form__claim-error-text,
+.form__claim-error-text2,
+.form__claim-error-text3,
+.form__claim-error-text4,
+.form__claim-error-text5,
+.form__claim-error-text6,
+.form__claim-error-text7,
+.form__claim-error-text8 {
+  text-align: right;
+  font-style: italic;
+  font-size: .8rem;
+  color: hsl(3, 60%, 57%);
+}
+
+.form__claim-error-text9 {
+  text-align: left;
+  font-style: italic;
+  font-size: .8rem;
+  width: 100%;
+  margin-bottom: 5px;
+  color: hsl(3, 60%, 57%);
+}
+
+.form__claim-error-text10 {
+  text-align: right;
+  font-style: italic;
+  font-size: .8rem;
+  color: hsl(205, 66%, 44%);
+}
+
+input.form-control.success {
+  border: 4px solid #198754;
+}
+
+input.form-control.error {
+  border: 4px solid hsl(3, 60%, 57%);
+}
+
+select.form-select.success {
+  border: 4px solid #198754;
+}
+
+select.form-select.error {
+  border: 4px solid hsl(3, 60%, 57%);
+}

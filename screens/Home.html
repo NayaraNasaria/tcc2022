@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover" />
+
+  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="../css/bodyHome.css" />
+  <link rel="stylesheet" href="../css/navbarHome.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="../js/jquery.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="../bootstrap/js/bootstrap.js"></script>
+  <script type="text/html" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"></script>
+  <script type="text/javascript" src="../js/function.js"></script>
+  <title>Home</title>
+</head>
+
+<body>
+  <script>
+    AOS.init();
+  </script>
+  <style>
+    .tituloProf {
+      color: #d3d1d1;
+      padding-top: 5%;
+      font-weight: bold;
+    }
+
+    .tituloServ {
+      color: #d3d1d1;
+      padding-top: 10%;
+      float: right;
+      font-weight: bold;
+    }
+
+    .tituloCli {
+      color: #d3d1d1;
+      padding-top: 10%;
+      font-weight: bold;
+    }
+
+    @keyframes blink {
+
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+    }
+  </style>
+  <nav class="navbar navbar-expand-lg bg-faded" style="background-color: #f2f2f2">
+    <div class="container-fluid">
+      <a class="navbar-brand">StreamLine</a>
+      <button class="navbar-toggler first-button" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <div class="animated-icon1">
+          <span></span><span></span><span></span><span></span>
+        </div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item dropdown" style="padding-right: 5%">
+            <a class="nav-link active dropdown-toggle" id="navbarDropdown">
+              Diarista
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-divider" style="width: 50%; background-color: black"></div>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/passarRoupa.php">Passar Roupa</a></li>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/faxinaCompleta.php">Faxina Completa</a></li>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/faxinaBasica.php">Faxina Básica</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" style="padding-right: 5%">
+            <a class="nav-link active dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Estética
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-divider" style="width: 50%; background-color: #1c252e"></div>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/manicure.php">Manicure</a></li>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/pedicure.php">Pedicure</a></li>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/limpezaPele.php">Limpeza de Pele</a></li>
+              <li>
+                <a class="dropdown-item" href="../screens/userSemLogin/designSobrancelha.php">Design de Sobrancelha</a>
+              </li>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/makeSimples.php">Maquiagem Simples</a></li>
+              <li>
+                <a class="dropdown-item" href="../screens/userSemLogin/makeElaborada.php">Maquiagem Elaborada</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" style="padding-right: 5%">
+            <a class="nav-link active dropdown-toggle" id="navbarDropdown">
+              Aulas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-divider" style="width: 50%; background-color: black"></div>
+              <li><a class="dropdown-item bc">Base Comum</a></li>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/humanas.php">Humanas</a></li>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/exatas.php">Exatas</a></li>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/linguas.php">Língua Estrangeira</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" style="padding-right: 5%">
+            <a class="nav-link active dropdown-toggle" id="navbarDropdown">
+              Fotografia
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-divider" style="width: 60%; background-color: black"></div>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/festa.php">Festa</a></li>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/formatura.php">Formatura</a></li>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/book.php">Book de Gravidez</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" id="navbarDropdown">
+              Babá
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-divider" style="width: 50%; background-color: black"></div>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/mensal.php">Mensal</a></li>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/temporada.php">Temporada</a></li>
+              <li><a class="dropdown-item" href="../screens/userSemLogin/anual.php">Anual</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container container-fluid" style="background-color: #f2f2f2; padding-top: 3%; min-height: 550px">
+    <div>
+      <div style="float: right; vertical-align: top; align-content: center">
+        <p>
+          <img class="img img-fluid" src="../img/container-image.png" alt="container-image" />
+        </p>
+      </div>
+      <div style="display: inline-block; vertical-align: top; margin: 50px">
+        <h2 class="titulo" style="
+      
+              font-weight: bold;
+              padding-top: 0%;
+            ">
+          Sobre nós
+        </h2>
+        <p class="texto">
+          Procuramos proporcionar a você uma experiência agradável com o nosso
+          site que auxilia na busca e contratação de serviços autônomos.
+          <br><br>
+          Nós
+          desenvolvemos esse site com o intuito de contribuir com a visibilidade
+          de trabalhadores autônomos, conectar o cliente e o profissional com
+          maior acessibilidade, com uma plataforma de fácil uso e com visual
+          moderno.
+        </p>
+      </div>
+    </div>
+  </div>
+  <section id="funciona" style="background-color: #011526">
+    <div class="containerCF container-fluid" style="align-content: center; justify-content: center">
+      <h2 class="tituloInfo" style="
+              font-weight: bold;
+              color: #f2f2f2;
+              text-align: center;
+              padding-top: 8%;
+            ">
+        Como Funciona
+      </h2>
+      <div class="containerInfo" style="padding-top: 5%">
+        <div class="row">
+          <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+            <h3 class="tituloProf">Profissionais</h3>
+          </div>
+          <div data-aos="fade-right" data-aos-duration="1000">
+            <p class="textoProf" style="
+                    color: #d3d1d1;
+                    padding-top: 8px;
+                  ">
+              Aqui o profissional poderá realizar seu cadastro adicionando
+              sua área de atuação e inserindo uma ou mais especificações, a
+              fim de que o cliente tenha acesso aos seus serviços de forma
+              rápida e eficiente.
+            </p>
+          </div>
+          <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+            <h3 class="tituloServ">Serviços</h3>
+          </div>
+          <div data-aos="fade-left" data-aos-duration="1000">
+            <p class="textoServ" style="
+                    color: #d3d1d1;
+                    float: right;
+                    text-align: right;
+                    padding-top: 8px;
+                  ">
+              Este é o site que você encontrará o serviço que procura. Basta
+              clicar em "Buscar" ou selecionar algum nas áreas acima. Para
+              entrar em contato com o prestador de serviços, será necessário
+              criar um cadastro como cliente. Já você, profissional, crie
+              seu cadastro como autônomo e tenha seus serviços divulgados.
+            </p>
+          </div>
+          <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+            <h3 class="tituloCli">Clientes</h3>
+          </div>
+          <div data-aos="fade-right" data-aos-duration="1000" style="margin-bottom: 50px">
+            <p class="textoCli" style="
+                    color: #d3d1d1;
+                    padding-top: 8px;
+                  ">
+              Para clientes que através desse site procura um profissional
+              que atenda suas necessidades, aqui você encontrará! Para isso,
+              crie seu cadastro de cliente. Se deseja consultar orçamentos
+              dos serviços, entrar em contato com o profissional e fechar
+              negócion, aqui é o lugar certo!
+            </p>
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="cadastro">
+    <div class="container container-fluid" style="
+          background-color: #f2f2f2;
+          padding-top: 5%;
+          min-height: 700px;
+          align-content: center;
+          justify-content: center;
+        ">
+      <h3 class="tituloInfo" style="
+    
+            padding-top: 3%;
+            text-align: center;
+          ">
+        Gostou? Cadastre-se agora mesmo!
+      </h3>
+      <!--arrumei  os textos de cadastro-->
+      <div class="containerCadastro" style="margin-top: 8%; margin-left: 10%; margin-right: 10%">
+        <div class="row justify-content-around">
+          <div id="card" class="col-sm-5">
+            <div class="card-body text-center">
+              <h4 class="card-title">Cadastre-se como cliente</h4>
+              <a href="cliente/cadastroCliente.php" class="btn btn-primary">Cadastre-se</a>
+              <p class="cadastro">Já possui cadastro? <a href="cliente/loginCliente.php"
+                  style="color: #607f99;text-decoration: underline;">Entre na sua conta</a></p>
+            </div>
+          </div>
+          <div id="card" class="col-sm-5">
+
+            <div class="card-body text-center">
+              <h4 class="card-title">Cadastre-se como autônomo</h4>
+              <a href="autonomo/cadastroAutonomo.php" class="btn btn-primary">Cadastre-se</a>
+              <p class="cadastro">Já possui cadastro? <a href="autonomo/loginAutonomo.php"
+                  style="color: #607f99;text-decoration: underline;">Entre na sua conta</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>© 2022 StreamLine - LMNNY</p>
+  </footer>
+</body>
+
+</html>
